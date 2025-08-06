@@ -5,13 +5,10 @@ const InputForm = () => {
   const password = useInput("");
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-green-100 via-green-200 to-green-300 flex items-center justify-center p-4">
+    <div className="min-h-screen flex items-center justify-center p-4">
       <div className="bg-white shadow-lg rounded-2xl p-8 max-w-md w-full border border-green-300">
-        <h2 className="text-2xl font-bold text-green-800 mb-6">
-          🌿 사용자 입력
-        </h2>
+        <h2 className="text-2xl font-bold text-green-800 ">🌿 사용자 입력</h2>
 
-        {/* 이름 입력 */}
         <div className="mb-6">
           <label className="block text-green-800 font-medium mb-2">이름</label>
           <input
@@ -32,7 +29,6 @@ const InputForm = () => {
           </div>
         </div>
 
-        {/* 패스워드 입력 */}
         <div className="mb-4">
           <label className="block text-green-800 font-medium mb-2">
             패스워드
